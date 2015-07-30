@@ -46,6 +46,10 @@ camera = new ccKlass().init()
 camera.on "photo_saved", (filename, path, web_url) ->
     State.image_src_list.push path
 
+printfoto = (fotopath) ->
+  console.log "Printing image at ", fotopath
+  exec "lpr -o #{process.env.PRINTER_IMAGE_ORIENTATION} -o media=\"#{process.env.PRINTER_MEDIA}\" #{fotopath}"
+
 io = require("socket.io").listen(web)
 web.listen 3000
 io.sockets.on "connection", (websocket) ->
@@ -69,16 +73,16 @@ io.sockets.on "connection", (websocket) ->
   websocket.on "all_images", ->
 
   websocket.on "composite", ->
-    compositer = new ImageCompositor(State.image_src_list).init()
+    compositer = new ImageCompositor(State.image_src_list, null, null, process.env.PRINTER_ENABLED is "strips").init()
     compositer.emit "composite"
+    compositer.on "composited_strips", printfoto
     compositer.on "composited", (output_file_path) ->
       console.log "Finished compositing image. Output image is at ", output_file_path
       State.image_src_list = []
 
       # Control this with PRINTER=true or PRINTER=false
       if process.env.PRINTER_ENABLED is "true"
-        console.log "Printing image at ", output_file_path
-        exec "lpr -o #{process.env.PRINTER_IMAGE_ORIENTATION} -o media=\"#{process.env.PRINTER_MEDIA}\" #{output_file_path}"
+        printfoto output_file_path
       websocket.broadcast.emit "composited_image", PhotoFileUtils.photo_path_to_url(output_file_path)
 
     compositer.on "generated_thumb", (thumb_path) ->
