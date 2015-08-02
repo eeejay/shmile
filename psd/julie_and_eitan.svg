@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4338"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="1800"
+   height="1200"
+   viewBox="0 0 1800 1200"
+   sodipodi:docname="julie_and_eitan.svg">
+  <metadata
+     id="metadata4344">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4342" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2252"
+     inkscape:window-height="1476"
+     id="namedview4340"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="2.6222222"
+     inkscape:cx="1280.9142"
+     inkscape:cy="547.1946"
+     inkscape:window-x="0"
+     inkscape:window-y="55"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4338">
+    <sodipodi:guide
+       position="965.44795,600.00473"
+       orientation="0,1"
+       id="guide4938" />
+  </sodipodi:namedview>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:40, 40;stroke-dashoffset:0;stroke-opacity:0.20432691"
+     id="rect4946"
+     width="1800"
+     height="100"
+     x="0"
+     y="550" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:71.63996887px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="672.11914"
+     y="615.7608"
+     id="text4146"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="672.11914"
+       y="615.7608"
+       id="tspan4150"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:89.5499649px;font-family:'Airstream NF';-inkscape-font-specification:'Airstream NF';fill:#aa0000">Julie <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:71.63996887px;font-family:'David CLM';-inkscape-font-specification:'David CLM Bold';fill:#666666"
+   id="tspan4158">+</tspan> Eitan </tspan><tspan
+       sodipodi:role="line"
+       x="672.11914"
+       y="733.66827"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:89.5499649px;font-family:'Airstream NF';-inkscape-font-specification:'Airstream NF';fill:#aa0000"
+       id="tspan4174" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:47.17227554px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="412.95709"
+     y="606.66248"
+     id="text4184"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="412.95709"
+       y="606.66248"
+       id="tspan4188"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:25px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Medium Italic';text-align:end;text-anchor:end">August 16th, 2015</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text4942"
+     y="607.28748"
+     x="1451.6849"
+     style="font-style:normal;font-weight:normal;font-size:47.17227554px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:25px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Medium Italic';text-align:end;text-anchor:end"
+       id="tspan4944"
+       y="607.28748"
+       x="1451.6849"
+       sodipodi:role="line">Seattle, WA</tspan></text>
+</svg>
