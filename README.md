@@ -1,6 +1,6 @@
 # shmile is a nodejs-based photobooth.
 
-![Shmile in action](http://farm8.staticflickr.com/7234/7154204305_9b146192dd_z.jpg)
+[![https://gyazo.com/f26fb9f246d92d92b1d4e3f008ba9d7d](https://i.gyazo.com/f26fb9f246d92d92b1d4e3f008ba9d7d.gif)](https://gyazo.com/f26fb9f246d92d92b1d4e3f008ba9d7d)
 
 [![Build Status](https://travis-ci.org/porkbuns/shmile.svg?branch=master)](https://travis-ci.org/porkbuns/shmile)
 [![Code Climate](https://codeclimate.com/github/porkbuns/shmile/badges/gpa.svg)](https://codeclimate.com/github/porkbuns/shmile)
@@ -43,9 +43,9 @@ The server is responsible for controlling the camera, and serving the Web interf
 
 ##### Install node & npm
 
-I've currently tested this app against `node 0.10`.
-
     $ brew install node
+
+Note that `shmile` officially supports Node `v0.12`, `4.2`, and `5.0`.
 
 ##### Install imagemagick
 
@@ -124,6 +124,8 @@ subsystem from the UI so you can test end-to-end without the camera. To this end
 * gphoto/node integration was inspired by https://github.com/underbluewaters/node-photobooth
 * Touch-enabled Web gallery interface courtesy of [PhotoSwipe](http://www.photoswipe.com). Fork it: https://github.com/codecomputerlove/PhotoSwipe
 * shmile is a port of [boink](http://github.com/andrewhao/boink), the original Rails-based photobooth written by Glen Wong and myself.
+
+![Shmile in action](http://farm8.staticflickr.com/7234/7154204305_9b146192dd_z.jpg)
 
 ### License
 
