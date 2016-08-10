@@ -73,12 +73,16 @@ io.sockets.on "connection", (websocket) ->
   websocket.on "all_images", ->
 
   websocket.on "composite", ->
-    compositer = new ImageCompositor(State.image_src_list, null, null, process.env.PRINTER_ENABLED is "strips").init()
+    if State.image_src_list.length == 0
+      return
+
+    imgs = State.image_src_list
+    State.image_src_list = []
+    compositer = new ImageCompositor(imgs, null, null, process.env.PRINTER_ENABLED is "strips").init()
     compositer.emit "composite"
     compositer.on "composited_strips", printfoto
     compositer.on "composited", (output_file_path) ->
       console.log "Finished compositing image. Output image is at ", output_file_path
-      State.image_src_list = []
 
       # Control this with PRINTER=true or PRINTER=false
       if process.env.PRINTER_ENABLED is "true"
