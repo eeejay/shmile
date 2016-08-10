@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="kristen_and_russ_strips.svg"
-   inkscape:export-filename="/home/eitan/Projects/shmile/psd/eitan_julie_strips.png"
+   inkscape:export-filename="/home/eitan/Projects/shmile/public/images/strips_overlay.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="1195.5395"
-     inkscape:cy="1127.2631"
+     inkscape:zoom="1"
+     inkscape:cx="973.43389"
+     inkscape:cy="965.4888"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -50,6 +50,17 @@
        position="932,900"
        orientation="0,1"
        id="guide4168" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid4179" />
+    <sodipodi:guide
+       position="1120,720"
+       orientation="1,0"
+       id="guide4181" />
+    <sodipodi:guide
+       position="80,830"
+       orientation="1,0"
+       id="guide4183" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -59,7 +70,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -106,7 +117,8 @@
            x="293.44931"
            y="881.46826" /></flowRegion><flowPara
          id="flowPara4182">August 16th, 2015August 16th, 2015Au</flowPara></flowRoot>    <g
-       id="g4937">
+       id="g4937"
+       transform="translate(40.305086,1.767767)">
       <text
          sodipodi:linespacing="125%"
          id="text4184"
